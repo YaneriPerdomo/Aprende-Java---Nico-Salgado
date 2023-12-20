@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprende Java</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <style>
+        @media screen and (max-width: 780px) {
+                    .testimonio > .content-testi > div, .all-cars > .car{
+                        width: 80% !important;
+                    } 
+
+                    .preguntas-frecuentes section{
+                        width: 100% !important;
+                    }
+                }
+        @media screen and (max-width: 480px) {
+            .testimonio > .content-testi > div,  .all-cars > .car{
+                width: 100% !important;
+            } 
+
+            .motivated-message div{
+                width: 100% !important;
+            }
+
+            .recapitular{
+                width: 100% !important;
+            }
+
+            .preguntas-frecuentes section{
+                width: 100% !important;
+            }
+        }
+
+
+        [src="./R.png"]{
+         
+            animation: myAwesomeAnimation 4s linear 200ms 1 alternate both;
+            
+        }
+       
+        @keyframes myAwesomeAnimation {
+        1% {
+            opacity: 0;
+              
+        }
+
+        50% {
+            opacity: 1;
+          
+        }
+
+        70%{
+            transform: perspective(10rem) rotateZ(360deg);
+            
+        }
+
+        100%{
+            transform: perspective(10rem) translateZ(10px);
+        }
+    }
+    </style>
+
+</head>
+<body>
+    
+    <!--Header - Cabezara -->
+
+    <header class="py-2 border-bottom sticky-top bg-light z-3" >
+        <div class="container-xl py-2">
+            <nav class="d-flex flex-wrap flex-row justify-content-between align-items-center">
+                <div>
+                    <h1>Aprende Java</h1>
+                </div>
+                <div>
+                    <a href="Vista/login.html" class="text-decoration-none text-black"><span class="">Iniciar sesiòn</span></a>
+                </div>
+            </nav>
+        </div>      
+    </header>
+    <br>
+    <main class="container-xl">
+        <div class="row ">
+            <!--Primer Contenido-->         
+               <div class="col-md-8 col-12  ">
+                    <div class="d-flex justify-content-center align-items-center   h-100">
+                        <div class="  " >
+                            <span class="fw-bold display-4 fw-semibold ">Inscríbete HOY</span><br><br>
+                        </div> 
+                    </div>
+               </div> 
+               <div class="col-md-4 col-12 ">
+                    <div><br>
+                        <img src="./R.png" class="img-fluid rounded-5" alt="">
+                    </div>
+               </div>
+        </div>
+        <br><br>
+
+      
+        <section class="motivated-message">
+            <div class="container-lg w-75 text-center">
+                <h3 class="fw-semibold">Vamos a admitirlo: Convertirse en desarrollador es difícil.</h3>
+                    <ul class="text-start">  
+                        <span class="fw-bold fs-5 ">Tienes que:</span> <br>           
+                        <li class="mb-2 mt-2">- Aprender conceptos que nunca has visto</li>
+                        <li class="mb-2">- Mantener disciplina para aprender programación (en tus horas libres)</li>
+                        <li class="mb-2">- Crear proyectos que sorprendan a empresas</li>
+                        <li class="mb-2">- Y pasar entrevistas (que parece que estuvieras aplicando a la NASA)</li>
+                    </ul>  
+                  <ul class="text-start"> <br>
+                  <span class="fw-bold fs-5 mb-2">Si estás acá porque quieres aprender programación pero:</span> <br>
+                        <li class="mb-2 mt-2">- Has comprado un curso que te sobrecarga de información</li>
+                        <li  class="mb-2">- Te sientes perdido y no sabes por dónde empezar</li>
+                        <li  class="mb-2">- No tienes a nadie para preguntarle tus dudas</li>
+                        <li  class="mb-2">- Te cuesta mantener el hábito de programar</li>
+                        <li class="mb-2">- Has caído en el infierno de los tutoriales</li>
+                        <li  class="mb-2">- Te sientes solo en el camino</li>
+                    </ul>
+
+                <div class="text-start">
+                    <br><br><br><br>
+                    <h3 class="fw-bold ms-4">Lee esto.</h3>
+                    <br><br>
+                    <p>Porque voy a describir la ruta que yo tomé para cambiar de carrera e iniciar una en el mundo del desarrollo <span class="fst-italic fw-bold">en menos de 3 meses.</span></p>
+                    <br><br><br>
+                    <img src="./offer_blurred.png" class="img-fluid" alt="">
+                    <br><br>
+                    <p>Yo estudié ingeniería eléctrica en la universidad, y mi primer trabajo fue como ingeniero eléctrico en una planta que manufacturaba productos hechos de cemento.</p>
+                    <br>
+                    <p class="fw-bold text-nowrap">Era aburridísimo.</p>
+                    <br>
+                    <p class="">Desde la universidad sabía que no me gustaba la ingeniería eléctrica, pero estaba esperando que milagrosamente <br> el trabajo fuera diferente.</p>
+                    <br><br>
+                        <div class="text-center h-100 w-100">
+                            <img src="./PXL_20210201_212848909_Original.jpg" class="img-fluid" style="height: 30vh;" alt="">
+                        </div>
+                    <br><br>
+                    <p>Desde la universidad sabía que no me gustaba la ingeniería eléctrica, pero estaba esperando que milagrosamente el trabajo fuera diferente.</p>
+                    <br>
+                    <strong>No lo fue. De hecho, lo odié.</strong>
+                    <br>
+                    <p>A veces la gente tiene un mal trabajo, pero están lo suficientemente bien como para no renunciar.</p>
+                    <br>
+                    <p>En mi caso, no fue así. Yo estaba desesperado <span class="fw-bold">por hacer algo diferente.</span></p>
+                    <br>
+                    <p>Empecé a considerar el desarrollo web como una opción…</p>
+                    <br>
+                    <p>Y después de hablar con un amigo que trabaja como desarrollador, decidí aprender programación.</p>
+                    <br><br><br>
+                    <ul>
+                        <span class="fw-bold">Sabía que tenía varias formas de hacerlos</span>
+                        <li>1&#41; Ser autodidacta y aprender programación por mi cuenta</li>
+                        <li>2&#41; Comprar algún curso en línea</li>
+                        <li>3&#41; Volver a la universidad para obtener un título técnico</li>
+                        <li>4&#41; O inscribirme a un Bootcamp</li>
+                    </ul>
+                    <br><br><br>
+                    <ul>
+                        <span class="fw-bold">También sabía que devolverme a la universidad era imposible porque:</span>
+                        <li>1&#41; - Tomé préstamo estudiantil y necesitaba empezar a pagarlo pronto</li>
+                        <li>2&#41; - No quería volver a tomar clases con profesores que llevan 10 años sin trabajar en la industria</li>
+                        <li>3&#41; - No quería gastar otros 4 años (en donde ni siquiera me prepararon bien para un trabajo real)</li>
+                   </ul>
+                   <br><br><br>
+                   <ul>
+                        <span class="fw-bold">También sabía que devolverme a la universidad era imposible porque: </span>
+                        <li>- Tomé préstamo estudiantil y necesitaba empezar a pagarlo pronto</li>
+                        <li>- No quería volver a tomar clases con profesores que llevan 10 años sin trabajar en la industria</li>
+                        <li>- No quería gastar otros 4 años (en donde ni siquiera me prepararon bien para un trabajo real)</li>
+                    </ul>
+                    <ul><br><br><br>
+                        <span class="fw-bold">Así que intenté ser autodidacta y comprar un curso, pero me fue terrible:</span>
+                        <li>- Sentía que no tenía una estructura clara de lo que estaba aprendiendo</li>
+                        <li>- Me costaba mucho ser consistente para ver los cursos</li>
+                        <li>- No tenía a nadie a quien preguntarle acerca de mis dudas</li>
+                        <li>- Sentía que me iba a tomar años en estar listo para aplicar</li>
+                    </ul>
+                    <br><br><br>
+                    <h3>Decidí inscribirme a un Bootcamp porque necesitaba aprender rápido para salir de donde estaba.</h3>
+                    <ul><br><br>
+                        <span class="fw-bold">El Bootcamp me encantó porque:</span>
+                        <li>- Aprendí más en 3 meses que en 4 años de carrera</li>
+                        <li>- Se enfocaban menos en la teoría y más en la práctica</li>
+                        <li>- Tenía a expertos que les podía compartir mi pantalla si tenía un problema</li>
+                        <li>- Y me ayudaron incluso en el tema de aplicaciones y entrevistas laborales</li>
+                    </ul> 
+                    <br><br>
+                    <span class="fw-bold">Gracias a esto conseguí mi primera oferta como desarrollador.</span>
+                    <br><br><br>
+                    <span>¿El único problema de los Bootcamps? <strong class="fw-bold text-uppercase"> El precio.</strong></span>
+                    <br><br>
+                    <strong>La mayoría te cuesta entre $10k y $20k.</strong>
+                    <div class="text-center"><br><br>
+                        <img src="./Screenshot_2023-12-11_at_12.16.18_AM.png" class="img-fluid w-50 " alt="">
+                    </div>
+                    <br><br>
+                    <strong>Yo terminé pagando $13k en total.</strong><br>
+                    <p class="mt-2">Eso es muchísima plata para cualquier persona, y fue por esto que decidí crear mi propio Bootcamp, por una fracción del precio regular.</p>
+                    <br>
+                    <ul><br>
+                        <span class="fw-bold">Mi Bootcamp es mejor que cualquier curso que estés tomando, porque vas a:</span>
+                        <li>- Tener una ruta clara para romper en la industria del desarrollo web <em> (lo antes posible)</em></li>
+                        <li>- Crear tu primera página web y tener un proyecto listo para aplicar</li>
+                        <li>- Sentirte parte de una comunidad con un mismo objetivo</li>
+                    </ul> <br><br>
+                    <p>Si te inscribes, vas a aprender Java, Spring, SQL, y Angular, para que tengas una ventaja al aplicar a trabajos <strong class="text-uppercase">(porque hay menos competencia) </strong>  </p>
+                    <br><br>
+                    <p>O si no pregúntale a Raúl, que con un video mío de 30 minutos fue capaz de conseguir su primer trabajo como desarrollador</p>
+              
+              
+                </div> 
+            </div>  <br><br><br><br><br><br><br><br><br><br>         
+        </section>
+        <section>
+            <div class="container-lg w-75 recapitular">
+                <div class="text-start">
+                    <h4>Para Recapitular...</h4><br>
+                    <p class="fs-5">Esto es todo lo que obtendrás al inscribirte el día de hoy:</p>
+                    <div class="row">
+                        <p class="border-bottom border-black py-2"><i class="bi bi-asterisk px-2 rounded-5 me-1 bg-primary "></i> Acceso inmediato a la Fase 1 (Java) con Nico</p>
+                        <p class="border-bottom border-black py-2"><i class="bi bi-asterisk  px-2 rounded-5 me-1 bg-primary"></i> Acceso inmediato la Fase 2 (Spring/SQL) enseñado por un desarrollador de más de 4 años de experiencia trabajando en Austria</p>
+                        <p class="border-bottom border-black py-2"><i class="bi bi-asterisk  px-2 rounded-5 me-1 bg-primary"></i>Acceso inmediato a la fase 3 (HTML, CSS, JavaScript, Angular) enseñado por un desarrollador de más de 5 años de experiencia trabajando en Estados Unidos</p>
+                        <p class="border-bottom border-black py-2"><i class="bi bi-asterisk  px-2 rounded-5 me-1 bg-primary"></i> BONUS: Aplicando a Trabajos</p>
+                        <p class="border-bottom border-black py-2"><i class="bi bi-asterisk  px-2 rounded-5 me-1 bg-primary"></i> BONUS: Preparación de Entrevistas</p>
+                        <p class="border-bottom border-black py-2"><i class="bi bi-asterisk  px-2 rounded-5 me-1 bg-primary"></i> BONUS: Grupo Privado de WhatsApp</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+       
+        <section class="">
+            <div class="container-lg text-center"><br><br><br>
+                <div class="content-of-offers text-center">
+                    <h4>Todas las fases incluídas...</h4>
+                    <p>Haz click en cualquiera de las fases para ver más detalles de los temas</p>
+                </div>
+                <div class="all-cars d-flex flex-row flex-wrap gap-4 justify-content-center">                 
+                    <div class="car w-25 p-2 shadow ">
+                        <a href="Vista/FaseUno.html" class="text-decoration-none text-white">
+                        <div class="img-car">
+                            <img src="./9TnGDlAYTnCSkYt1mGtg_java fase 1 png.png" class="img-fluid rounded-2" alt="">
+                        </div>
+                        <div class="body-car">
+                            <span>ALL PRODUCTS</span>
+                            <h5> Fase 1 - Java</h5>
+                            <span><i class="bi bi-pc-display me-2"></i>Curso</span> <br>
+                            <span><i class="bi bi-star-fill me-2 "></i> <strong class="me-1">5.0</strong>(8 Reseñas)</span>
+                            
+                            <p class="mt-2">En esta fase 1 empezaremos a aprender nuestro primer lenguaje de programación (Java) completamente desde cero.
+                             Este será el primer escalón...</p>
+                        </div></a>
+                    </div>
+                    <div class="car w-25 bg-light p-2 shadow h-auto">
+                        <a href="Vista/Fasedos.html" class="text-decoration-none text-white">
+                        <div class="img-car">
+                            <img src="./x8rK5y9aSWy30ANjgyKj_backend fase 2 png.png" class="img-fluid rounded-2" alt="">
+                        </div>
+                        <div class="body-car">
+                            <span>ALL PRODUCTS</span>
+                            <h5> Fase 2 - Backend </h5>
+                            <span><i class="bi bi-pc-display me-2"></i>Curso</span>
+                            <p class="mt-2">Después de haber aprendido Java, es hora de empezar con nuestro primer framework de programación...</p>
+                        </div></a>
+                    </div>
+                    <div class="car w-25 bg-light p-2 shadow">
+                        <a href="Vista/FaseTres.html" class="text-decoration-none text-white">
+                        <div class="img-car">
+                            <img src="./fron.png" class="img-fluid rounded-2" alt="">
+                        </div>
+                        <div class="body-car">
+                            <span>ALL PRODUCTS</span>
+                            <h5> Fase 3 - Frontend</h5>
+                            <span><i class="bi bi-pc-display me-2"></i>Curso</span>
+                            <p class="mt-2">Para concluir el Bootcamp, estaremos aprendiendo acerca del frontend. Esta fase consistirá en aprender: HTML, CSS...</p>
+                        </div></a>
+                    </div><div class="car w-25 bg-light p-2 shadow">
+                        <a href="" class="text-decoration-none text-white">
+                        <div class="img-car">
+                            <img src="./aplicacion.png" class="img-fluid rounded-2" alt="">
+                        </div>
+                        <div class="body-car">
+                            <span>ALL PRODUCTS</span>
+                            <h5>Fase 4 - Aplicando a Trabajos</h5>
+                            <span><i class="bi bi-pc-display me-2"></i>Curso</span>                        
+                            <p class="mt-2">En la fase 4 hablaremos acerca de cómo hacer una hoja de vida atractiva y dónde y cómo aplicar...                            </p>
+                        </div></a>
+                    </div>
+                    <div class="car w-25 bg-light p-2 shadow">
+                        <a href="" class="text-decoration-none text-white">
+                        <div class="img-car">
+                            <img src="./comunidad.png" class="img-fluid rounded-2" alt="">
+                        </div>
+                        <div class="body-car">
+                            <span>ALL PRODUCTS</span>
+                            <h5>Futuros Programadores</h5>
+                            <span><i class="bi bi-pc-display me-2"></i>Comunidad</span>        
+                            <p class="mt-2">Una comunidad construida específicamente para todos los que son parte del Bootcamp de Full Stack.</p>
+                        </div></a>
+                    </div>
+                  
+                </div>
+                <section class="Buscador  ">
+                    <div><br><br><br><br><br>
+                        <span class="fw-bold fs-1">Bootcamp de Desarrollo Full Stack</span>
+                        <p class="fs-5">Si estás buscando tu primer trabajo como desarrollador, este Bootcamp está diseñado <br> para llevarte desde cero hasta experto. Únete para tener acceso a múltiples profesores, proyectos, y contenido.</p>
+                        <div class="row justify-content-center  ">
+                            <select name="" id="" class="p-2 col-12 col-md-8 ">
+                                <option value="">$403 Dolares</option>
+                                <option value="">5 Pagas Mensuales de 70 dolares</option>
+                                <option value="">3 Pagos Mensuales de 130 Dolares</option>
+                            </select> 
+                            <div class="col-md-3 col-12 text-md-center  d-flex align-items-center justify-content-center h-100 ">
+                                <br><br><br>
+                                <button class="w-auto p-2 border-0">Comprar</button>
+                            </div>
+                        </div>
+                    </div>  <br><br><br><br><br><br><br>
+              </section>
+              
+                <section class="testimonio">
+                    <span class="fs-2">Testimonios de estudiantes...</span>
+                    <br><br>
+                    <div class="d-flex flex-wrap flex-row gap-3 justify-content-center content-testi ">
+                        <div class="w-25 text-start bg-light shadow p-3 ">
+                            <p>“Muy buenas explicaciones hay tres cuatro datos que en mis clases de programación en la universidad no se tocaron y con ello ya entiendo mas sobre java, hasta ahorita va muy bien el curso.”</p>
+                            <span>Estudiante <br>
+                                Édgar G.</span>
+                        </div>
+                        <div class="w-25 text-start bg-light shadow p-3 ">
+                            <p>“Muy buenas explicaciones hay tres cuatro datos que en mis clases de programación en la universidad no se tocaron y con ello ya entiendo mas sobre java, hasta ahorita va muy bien el curso.”</p>
+                            <span>Estudiante <br>
+                                Édgar G.</span>
+                        </div> <div class="w-25 text-start bg-light shadow p-3 ">
+                            <p>“Muy buenas explicaciones hay tres cuatro datos que en mis clases de programación en la universidad no se tocaron y con ello ya entiendo mas sobre java, hasta ahorita va muy bien el curso.”</p>
+                            <span>Estudiante <br>
+                                Édgar G.</span>
+                        </div> <div class="w-25 text-start bg-light shadow p-3 ">
+                            <p>“Muy buenas explicaciones hay tres cuatro datos que en mis clases de programación en la universidad no se tocaron y con ello ya entiendo mas sobre java, hasta ahorita va muy bien el curso.”</p>
+                            <span>Estudiante <br>
+                                Édgar G.</span>
+                        </div>
+                        <div class="w-25 text-start bg-light shadow p-3 ">
+                            <p>“Muy buenas explicaciones hay tres cuatro datos que en mis clases de programación en la universidad no se tocaron y con ello ya entiendo mas sobre java, hasta ahorita va muy bien el curso.”</p>
+                            <span>Estudiante <br>
+                                Édgar G.</span>
+                        </div> <div class="w-25 text-start bg-light shadow p-3 ">
+                            <p>“Muy buenas explicaciones hay tres cuatro datos que en mis clases de programación en la universidad no se tocaron y con ello ya entiendo mas sobre java, hasta ahorita va muy bien el curso.”</p>
+                            <span>Estudiante <br>
+                                Édgar G.</span>
+                        </div> <div class="w-25 text-start bg-light shadow p-3 ">
+                            <p>“Muy buenas explicaciones hay tres cuatro datos que en mis clases de programación en la universidad no se tocaron y con ello ya entiendo mas sobre java, hasta ahorita va muy bien el curso.”</p>
+                            <span>Estudiante <br>
+                                Édgar G.</span>
+                        </div> <div class="w-25 text-start bg-light shadow p-3 ">
+                            <p>“Muy buenas explicaciones hay tres cuatro datos que en mis clases de programación en la universidad no se tocaron y con ello ya entiendo mas sobre java, hasta ahorita va muy bien el curso.”</p>
+                            <span>Estudiante <br>
+                                Édgar G.</span>
+                        </div>
+                        
+                        
+                    </div>
+                </section>
+                <section><br><br>
+                    <div class="row ">
+                        <div class="col-md-6 col-12">
+                            <img src="./nico.jpg" class="img-fluid rounded-2 " alt="">
+                        </div>
+                        <div class="col-md-6 col-12 d-flex justify-content-center align-items-center">
+                            <div class="text-start" >
+                                <h4>Hola, soy Nico</h4>
+                                <span class="fw-lighter">Empecé como todos, desde cero.</span><br><br>
+                                <p>Tomé un Bootcamp de 3 meses en donde no tenía ni idea de como programar, y hacia el final del segundo mes, obtuve mi primera oferta como desarrollador Full Stack.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section><br><br><br><br>
+                <section class="preguntas-frecuentes w-100 ">
+                    <section id="menu-defecto" class="invisible  w-100">
+                        <a href="#menu-defecto"  class="border-bottom"> ¿Cuantas horas semanales necesitarè? <i class="bi bi-arrow-bar-right"></i></a> 
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus praesentium dolorum, id aliquam dolorem esse magni doloremque soluta, possimus nam fugit eius laborum iusto magnam quas accusamus qui. Maiores, illum?</p>
+                    </section>
+                    <section id="menu-1">
+                        <a href="#menu-1"  class="border-bottom"> Cuantas horas semanales necesitarè? <i class="bi bi-arrow-bar-right"></i></a> 
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus praesentium dolorum, id aliquam dolorem esse magni doloremque soluta, possimus nam fugit eius laborum iusto magnam quas accusamus qui. Maiores, illum?</p>
+                    </section>
+                    <section id="menu-2">
+                        <a href="#menu-2"  class="border-bottom"> Cuantas horas semanales necesitarè? <i class="bi bi-arrow-bar-right"></i></a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus praesentium dolorum, id aliquam dolorem esse magni doloremque soluta, possimus nam fugit eius laborum iusto magnam quas accusamus qui. Maiores, illum?</p>
+                    </section><section id="menu-3">
+                        <a href="#menu-3" class="border-bottom"> Cuantas horas semanales necesitarè? <i class="bi bi-arrow-bar-right"></i> </a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus praesentium dolorum, id aliquam dolorem esse magni doloremque soluta, possimus nam fugit eius laborum iusto magnam quas accusamus qui. Maiores, illum?</p>
+                    </section>
+                </section>
+            </div>
+        </section>
+    </main>
+    <br><br><br>
+
+    <div class="bg-light py-5">
+        <footer class="container-xl"> 
+                <div>
+                    <nav class="text-end">
+                        <a href="" class="text-decoration-none text-white me-3">Home </a>
+                        <a href="Vista/products.html" class="text-decoration-none text-white  ">All Products</a>
+                    </nav><hr>
+                    <span class="d-block text-center">© Copyright Bootcamp de Nico 2023</span>
+                </div>
+            </footer><br><br><br><br><br>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>

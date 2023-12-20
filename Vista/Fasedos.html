@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+ 
+    <style>
+           .VerMas > ul{
+            display: none;
+        }
+
+        
+        .VerMas:target ul{
+             display: block;
+             transition: all 0.2s linear;
+            
+        }
+
+        .VerMas1:target ul{
+             display: none;
+        }
+
+
+        ul li{
+            list-style-type: none;
+            font-size: 1.3rem;
+            padding: 0.5rem 0rem 0.5rem 0rem;
+            border-bottom: 0.1rem grey solid;
+        }
+
+        .VerMas > a, ul > a{
+            font-size: 1.1rem;
+            
+        }
+
+        @media screen and (max-width: 780px) {
+                    .testimonio > div > div{
+                        width: 80% !important;
+                    } 
+                    
+                    [src="../9TnGDlAYTnCSkYt1mGtg_java fase 1 png.png"]{
+                        display: none;
+                    }
+                     
+                }
+    </style>
+</head>
+<body>
+    
+    
+    <header class="py-2 border-bottom sticky-top bg-light z-3" >
+        <div class="container-xxl py-2">
+            <nav class="d-flex flex-wrap flex-row justify-content-between align-items-center">
+                <div>
+                    <h1>Aprende Java</h1>
+                </div>
+                <div>
+                    <a href="login.html" class="text-decoration-none"><span class="">Iniciar sesiòn</span></a>
+                </div>
+            </nav>
+        </div>      
+    </header>
+
+    <br><br><br>
+    <main>
+        <div class="container-xxl">
+            <div class="phase-one ">
+                <h1  class="text-center">Fase 2 - Backend</h1>
+                <p class="text-center fs-5 fw-light">Después de haber aprendido Java, es hora de empezar con nuestro primer 
+                framework de programación. En esta fase 2, nos iremos a fondo con todo el tema del backend, incluyendo 
+                Spring y PostgreSQL.</p>
+                <br><br><br>
+
+                <span class="fs-2 fw-bold">Plan de estudios</span>
+                <br><br><br>
+                <section class="Plan">
+                    <div class="row  ">
+                    <div class="col-md-7 col-12 order-2 order-md-0    ">
+                        <section class="  ">                      
+                            <ul>
+                                <li>Bases de Datos - Primeros Pasos</li>
+                                <li>Creación de Bases de Datos</li>
+                                <li>Creación de Tablas</li>
+                                <li>Insertando Datos</li>
+                                <li>Realizando Consultas</li>
+                                <li>Filtrando Datos</li>
+                                <div class="VerMas" id="VerMas"><br>
+                                    <a href="#VerMas" class="text-decoration-none text-warning fw-bold ">Mostrar Mas</a>
+                                    <ul>
+                                        <li>Programación Orientada a Objetos: Encapsulación</li>
+                                        <li>Proyecto #1: Cajero</li>
+                                        <li> Proyecto #2: Tienda de Ropa</li>
+                                        <li>Programación Orientada a Objectos: Polimorfismo</li>
+                                        <li>Programación Orientada a Objetos: Encapsulación</li>
+                                        <li>Proyecto #1: Cajero</li>
+                                        <li> Proyecto #2: Tienda de Ropa</li>
+                                        <li>Programación Orientada a Objectos: Polimorfismo</li>
+                                        <li>Programación Orientada a Objetos: Encapsulación</li>
+                                        <li>Proyecto #1: Cajero</li>
+                                        <li> Proyecto #2: Tienda de Ropa</li>
+                                        <li>Programación Orientada a Objectos: Polimorfismo</li><br>
+                                        <a href="#VerMas1" class="text-decoration-none text-warning fw-bold">Cerrar</a>
+                                     
+                                    </ul>
+                                    
+                                </div>
+                                <div class="VerMas d-none" id="VerMas1" >
+                                    <a href="#VerMas1">Ver Mas</a>
+                                    <ul>
+                                        <li>hola</li>
+                                        <li>hola</li>
+                                        <li> hola</li>
+                                    </ul>
+                                    
+                                </div>
+                            </ul>
+                        </section>
+                    </div>
+                    <div class="col-md-4 col-12 order-md-1 order-md-0  ">
+                        <div class="car p-2 shadow w-100 mb-3"> 
+                            <a href="Vista/FaseUno.html" class="text-decoration-none text-white">
+                            <div class="img-car">
+                                <img src="../9TnGDlAYTnCSkYt1mGtg_java fase 1 png.png" class=" img-fluid rounded-2" alt="">
+                            </div>
+                            <div class="body-car">
+                                 
+                                <h5 class="mt-2"> Acerca de la Fase 2 </h5>
+                                <span><i class="bi bi-card-list"></i> 137 lecciones</span> <br>
+                                <span><i class="bi bi-fast-forward-circle "></i> <strong class="me-1">14.5 horas</strong>de contenido en video</span>
+                                
+                            </div></a>
+                        </div>
+                    </div>
+                </section>  <br><br><br><br><br>
+                <div class="row ">
+                    <div class="col-md-5 col-12 order-2 mt-4 ">
+                        <img src="../miguel.jpg" class="img-fluid rounded-2 " alt="">
+                    </div>
+                    <div class="col-md-7 col-12 order-1  d-flex justify-content-center align-items-center">
+                        <div class="text-start" >
+                            <h2>Instructor</h2>
+                            
+                            <p>Miguel es un desarrollador colombiano que lleva 5 años trabajando como desarrollador backend en Austria, y suele sobresalir ante los demás por su gran ambición a la hora de seguir sus proyectos personales. En este momento está creando una aplicación llamada Avid Habits, en donde piensa unir a gente que comparta los mismos objetivos.
+                            </p>
+                            <h3>Miguel Cardenas</h3>
+                            <span>Desarrollador Backend</span>
+                        </div>
+                    </div>
+                </div><br><br><br>
+                
+              <section class="cupos-limitados text-center">
+                <strong class="display-6 fw-medium">O Inscríbete al Bootcamp</strong><br>
+                    <small>Cupos limitados</small>
+                    <br><br><br>
+                    <div class="">
+                        <div class="car p-2 shadow w-100  ">
+                            <a href="Vista/FaseUno.html" class="text-decoration-none text-white">
+                            <div class="img-car">
+                                <img src="../9TnGDlAYTnCSkYt1mGtg_java fase 1 png.png" class=" me-3 float-start w-25  img-fluid rounded-2" alt="">
+                            </div>
+                            <div class="text-start  ">
+                                <span class=""> Bootcamp de Desarrollo Full Stack</span><br>
+                                <span><i class="bi bi-pc-display me-2 "></i>Paquete</span> <br>
+                                <p class="mt-2">Si estás buscando tu primer trabajo como desarrollador, este Bootcamp está diseñado para llevarte desde cero hasta experto. Únete para tener acceso a múltiples profesores, proyectos, y contenido</p>
+                                <div class=" d-flex flex-row flex-wrap justify-content-between align-items-center">
+                                    <div>
+                                        <span>$343</span>
+                                    </div>
+                                    <div>
+                                        <button class="border-0 p-2 rounded-2">Comprar</button>
+                                    </div>
+                                </div>
+                                <br>
+                            </div></a>
+                        </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <br><br><br><br><br>
+    <footer class="container-xl py-4"> 
+        <div>
+            <nav class="text-end text-md-center">
+                <a href="../index.html" class="text-decoration-none text-white me-3">Home </a>
+                <a href="products.html" class="text-decoration-none text-white  ">All Products</a>
+            </nav><hr>
+            <span class="d-block text-center">© Copyright Bootcamp de Nico 2023</span>
+        </div>
+    </footer>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
